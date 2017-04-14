@@ -3,14 +3,6 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
- .btn-primary.active,
- .btn-primary:active,
- .btn-xl.active,
- .btn-xl:active,
- .open .dropdown-toggle.btn-primary,
- .open .dropdown-toggle.btn-xl{
- 	background-image:none
- }
 
  body{
  	overflow-x:hidden;
@@ -270,46 +262,25 @@
 
 /**HEADER PHOTO + COLORS**/
 
- header {
- 	background-image:url(../img/oaklandfade.jpg);
- 	background-color: #35393C;
- 	background-repeat:no-repeat;background-attachment:scroll;
- 	background-position:center center;
- 	-webkit-background-size:cover;
- 	-moz-background-size:cover;
- 	background-size:cover;
- 	-o-background-size:cover;
- 	text-align:center;
- 	color:#fff
+@media (max-width: 991px) {
+
+	header {
+	 	background-image:url(../img/oaklandfade.jpg);
+	 	background-color: #35393C;
+	 	background-repeat:no-repeat;background-attachment:scroll;
+	 	background-position:center center;
+	 	-webkit-background-size:cover;
+	 	-moz-background-size:cover;
+	 	background-size:cover;
+	 	-o-background-size:cover;
+	 	text-align:center;
+	 	color:#fff
  }
-
- header .intro-text {
- 	padding-top:85px;
- 	padding-bottom:50px
- }
-
- header .intro-text .intro-lead-in {
- 	font-family:Helvetica, "Droid Serif","Helvetica Neue",Arial,sans-serif;
- 	font-style:italic;
- 	font-size:22px;
- 	line-height:22px;
- 	margin-bottom:25px;
- 	}
-
- header .intro-text .intro-heading {
- 	font-family: Helvetica, Montserrat,"Helvetica Neue",Arial,sans-serif;
- 	text-transform:uppercase;
- 	font-weight:700;
- 	font-size:50px;
- 	line-height:50px;
- 	margin-bottom:25px
- 	}
-
- @media (min-width:320px){
 
  header .intro-text {
  	padding-top:100px;
- 	padding-bottom:100px}
+ 	padding-bottom:100px
+ }
 
  header .intro-text .intro-lead-in {
  	font-family: Helvetica, "Droid Serif","Helvetica Neue",Arial,sans-serif;
@@ -326,7 +297,9 @@
  	text-shadow: 1px 1px #35393C;
  	font-size:65px;
  	line-height:75px;
- 	margin-bottom:50px}}
+ 	margin-bottom:50px
+ 	}
+ }
 
  .story-text {
  	font-family: Helvetica, Montserrat, "Helvetica Neue", Arial, sans-serif;
