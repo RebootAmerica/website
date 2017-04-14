@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Reboot Safety Follow the Money</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+     <script type="text/javascript" src="js/charts.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat|Nunito" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+ 
+  
+<div id="container">
+    <div id="header">
+      Reboot Safety - FOLLOW THE MONEY    
+    </div>
+    <div id="versus">
+     VS
+    </div>
+  
+
+  <div id="content">
+     <div class="dropdown">
+        Choose a city to view data: 
+        <form>
+          <select name="city1name">
+          <option value="Baltimore">Baltimore</option>
+          <option value="Irvine">City of Irvine</option>
+          <option value="Ferguson">Ferguson</option>
+          <option value="San_Jose">San Jose</option>
+         </select>
+       </form>
+    </div>
+<br>
+    <div class="citynames">Ferguson
+    </div>
+    <div class="designation"><a href="mailto:hello@rebootsafety.tech">Woah! What is going on here?</a></div>
+    <div class="population">Population: <i class="fa fa-user" aria-hidden="true"></i>
+    </div>
+     <div id="chart1"></div>
+    <div id="chart1_2"></div>
+    <div id="chart1_3"></div>
+  
+    </div>
+    
+    <div id="sidebar">
+        
+<div class="dropdown">
+Choose a city to view their data: 
+<form>
+<select name="city2name">
+  <option value="Baltimore">Baltimore</option>
+  <option value="Irvine">City of Irvine</option>
+  <option value="Ferguson">Ferguson</option>
+  <option value="San_Jose">San Jose</option>
+</select>
+</form></div>
+<br>
+
+<div class="citynames">City of San Jose</div>
+<div class="designation"><a href="mailto:hello@rebootsafety.tech">Sweet! There's a lot going right here! <br>Tell us about it.</a></div>
+   <div class="population">Population: <i class="fa fa-user" aria-hidden="true"></i>
+    <i class="fa fa-user" aria-hidden="true"></i><i class="fa fa-user" aria-hidden="true"></i></div>
+    <div id="chart2"></div>
+    <div id="chart2_2"></div>
+    <div id="chart2_3"></div>
+  </div>
+
+
+    
+    <div id="footer">
+        Created at the Lesbians Who Tech Hackathon!
+    </div>
+</div>
+    
+    
+    
+    
+    
+  </body>
+</html>

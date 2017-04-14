@@ -1,0 +1,17 @@
+Options -Indexes
+
+# STRONG HTACCESS PROTECTION
+<Files ~ "^.*\.([Hh][Tt][Aa])">
+ order allow,deny
+ deny from all
+ satisfy all
+</Files>
+
+# BLOCK BAD QUERY STRINGS
+<ifmodule mod_rewrite.c>
+ RewriteCond %{QUERY_STRING} ftp\:   [NC,OR]
+ RewriteCond %{QUERY_STRING} http\:  [NC,OR]
+ RewriteCond %{QUERY_STRING} https\: [NC]
+ RewriteRule .* -                    [F,L]
+</ifmodule>
+
